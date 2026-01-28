@@ -1,3 +1,4 @@
+
 # AI-Assisted Coding Agents in 2026
 
 
@@ -6,6 +7,7 @@
 AI-assisted coding agents have undergone a dramatic transformation from simple autocomplete tools to sophisticated autonomous systems capable of understanding entire codebases, managing multi-file edits, and executing complex development workflows. In 2026, the landscape has matured into distinct categories—IDE-based extensions, IDE forks optimized for AI-native workflows, and powerful command-line agents operating at the system level.
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"background": "#f9f9f7", "primaryColor": "#fdfdf7", "primaryTextColor": "#3d3f3d", "primaryBorderColor": "#d4927f", "lineColor": "#d4927f", "secondaryColor": "#f9f9f7", "tertiaryColor": "#fdfdf7", "fontFamily": "Segoe UI, Arial, sans-serif"}}}%%
 timeline
     title Evolution of AI-Assisted Coding Agents
     
@@ -37,6 +39,7 @@ By 2026, developers operate across three complementary paradigms: IDE extensions
 ## General Capabilities of AI Coding Agents
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"background": "#f9f9f7", "primaryColor": "#fdfdf7", "primaryTextColor": "#3d3f3d", "primaryBorderColor": "#d4927f", "lineColor": "#d4927f", "secondaryColor": "#f9f9f7", "tertiaryColor": "#fdfdf7", "fontFamily": "Segoe UI, Arial, sans-serif"}}}%%
 mindmap
     root((AI Coding Agent Capabilities))
         Core Code Generation & Understanding
@@ -314,6 +317,7 @@ CLI agents operate as standalone processes with full user-level system access. T
 ## Architectural Differences in IDE and CLI Agents
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"background": "#f9f9f7", "primaryColor": "#fdfdf7", "primaryTextColor": "#3d3f3d", "primaryBorderColor": "#d4927f", "lineColor": "#d4927f", "secondaryColor": "#f9f9f7", "tertiaryColor": "#fdfdf7", "fontFamily": "Segoe UI, Arial, sans-serif"}}}%%
 flowchart TB
     subgraph CLI["CLI Agent Architecture"]
         direction TB
@@ -360,16 +364,17 @@ flowchart TB
         Plugin -.-> NoShell
     end
     
-    style CLI fill:#1a365d,color:#fff
-    style IDE fill:#2d3748,color:#fff
-    style Capabilities fill:#2c5282,color:#fff
-    style Constraints fill:#4a5568,color:#fff
-    style NoWrite fill:#c53030,color:#fff
-    style NoShell fill:#c53030,color:#fff
+    style CLI fill:#f9f9f7,stroke:#d4927f,color:#3d3f3d
+    style IDE fill:#f9f9f7,stroke:#d4927f,color:#3d3f3d
+    style Capabilities fill:#fdfdf7,stroke:#d4927f,color:#3d3f3d
+    style Constraints fill:#fdfdf7,stroke:#d4927f,color:#3d3f3d
+    style NoWrite fill:#d4927f,stroke:#d4927f,color:#3d3f3d
+    style NoShell fill:#d4927f,stroke:#d4927f,color:#3d3f3d
 ```
 
 ## Cross-Repository Coordination Pattern
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"background": "#f9f9f7", "primaryColor": "#fdfdf7", "primaryTextColor": "#3d3f3d", "primaryBorderColor": "#d4927f", "lineColor": "#d4927f", "secondaryColor": "#f9f9f7", "tertiaryColor": "#fdfdf7", "fontFamily": "Segoe UI, Arial, sans-serif"}}}%%
 flowchart LR
     subgraph CrossRepo["Cross-Repository Coordination Pattern"]
         direction TB
@@ -397,14 +402,15 @@ flowchart LR
         Frontend -.-> Shared
     end
     
-    style CrossRepo fill:#1e3a5f,color:#fff
-    style Repos fill:#2d4a6f,color:#fff
-    style Details fill:#3d5a7f,color:#fff
-    style Task fill:#4a90d9,color:#fff
+    style CrossRepo fill:#f9f9f7,stroke:#d4927f,color:#3d3f3d
+    style Repos fill:#fdfdf7,stroke:#d4927f,color:#3d3f3d
+    style Details fill:#fdfdf7,stroke:#d4927f,color:#3d3f3d
+    style Task fill:#d4927f,stroke:#d4927f,color:#3d3f3d
 ```
 
 ## Parallel Execution Pattern
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"background": "#f9f9f7", "primaryColor": "#fdfdf7", "primaryTextColor": "#3d3f3d", "primaryBorderColor": "#d4927f", "lineColor": "#d4927f", "secondaryColor": "#f9f9f7", "tertiaryColor": "#fdfdf7", "fontFamily": "Segoe UI, Arial, sans-serif"}}}%%
 flowchart TB
     subgraph Parallel["Parallel Execution Pattern"]
         direction TB
@@ -422,9 +428,9 @@ flowchart TB
         A & B & C --> Coord
     end
     
-    style Parallel fill:#234e52,color:#fff
-    style Agents fill:#285e61,color:#fff
-    style Coord fill:#319795,color:#000
+    style Parallel fill:#f9f9f7,stroke:#d4927f,color:#3d3f3d
+    style Agents fill:#fdfdf7,stroke:#d4927f,color:#3d3f3d
+    style Coord fill:#d4927f,stroke:#d4927f,color:#3d3f3d
 ```
 
 CLI agents operate as standalone processes with full user-level system access. This architectural difference enables capabilities fundamentally unavailable to IDE plugins: autonomous multi-repository coordination, parallel execution, shell command integration, and CI/CD pipeline automation.
